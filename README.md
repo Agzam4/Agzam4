@@ -1,4 +1,7 @@
-![GitHub followers](https://img.shields.io/github/followers/agzam4?color=999&logo=github&style=for-the-badge)
+![GitHub followers](https://img.shields.io/github/followers/agzam4?color=999&logo=github&style=for-the-badge) &#8291; &#8291; &#8291;
+![JAVA](https://img.shields.io/badge/-JAVA_№1-FF9000?style=for-the-badge&logo=java) &#8291;
+![JS](https://img.shields.io/badge/-Javascript-FFEE00?style=for-the-badge&logo=Javascript&logoColor=333)
+![CPP](https://img.shields.io/badge/-C++-6600FF?style=for-the-badge)
 
 # Recommended projects:
 [![](https://github.com/Agzam4/Lights-Balls/blob/main/background.png?raw=true)](https://github.com/Agzam4/Lights-Balls)
@@ -13,7 +16,7 @@
 ![GitHub all releases](https://img.shields.io/github/downloads/agzam4/The-Light-2-Plus-Plus/total?color=0090FF&style=for-the-badge)
 ![GitHub Repo stars](https://img.shields.io/github/stars/agzam4/The-Light-2-Plus-Plus?color=FFE572&style=for-the-badge)
 ***
-[![](https://repository-images.githubusercontent.com/374747355/be49621d-ffb5-46bc-b98c-724c192d13a3)](https://github.com/Agzam4/Dungeon-Underground-traps)
+[![](https://repository-images.githubusercontent.com/374747355/f95abde4-505a-4a2f-be1f-e23e130a9fac)](https://github.com/Agzam4/Dungeon-Underground-traps)
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/agzam4/Dungeon-Underground-traps?color=9000FF&style=for-the-badge)
 ![GitHub all releases](https://img.shields.io/github/downloads/agzam4/Dungeon-Underground-traps/total?color=0090FF&style=for-the-badge)
