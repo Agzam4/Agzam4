@@ -10,7 +10,7 @@
 ![GitHub all releases](https://img.shields.io/github/downloads/agzam4/Lights-Balls/total?color=0090FF&style=for-the-badge)
 ![GitHub Repo stars](https://img.shields.io/github/stars/agzam4/Lights-Balls?color=FFE572&style=for-the-badge)
 ***
-[![](https://repository-images.githubusercontent.com/316701133/b4678900-31c3-11eb-9d4f-e0943b8027d7)](https://github.com/Agzam4/The-Light-2-Plus-Plus)
+[![](https://repository-images.githubusercontent.com/427095683/8e892787-efe0-47cf-aa43-48add8fc2239)](https://github.com/Agzam4/The-Light-2-Plus-Plus)
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/agzam4/The-Light-2-Plus-Plus?color=9000FF&style=for-the-badge)
 ![GitHub all releases](https://img.shields.io/github/downloads/agzam4/The-Light-2-Plus-Plus/total?color=0090FF&style=for-the-badge)
