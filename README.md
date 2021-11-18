@@ -3,6 +3,8 @@
 ![JS](https://img.shields.io/badge/-Javascript-FFEE00?style=for-the-badge&logo=Javascript&logoColor=333)
 ![CPP](https://img.shields.io/badge/-C++-6600FF?style=for-the-badge)
 
+![](https://github-readme-stats.vercel.app/api?username=agzam4&show_icons=true&theme=dark&title_color=00FFB4&text_color=999&icon_color=00FF5D&border_color=EEE)
+
 # Recommended projects:
 [![](https://github.com/Agzam4/Lights-Balls/blob/main/background.png?raw=true)](https://github.com/Agzam4/Lights-Balls)
 
