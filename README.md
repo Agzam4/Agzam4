@@ -5,6 +5,7 @@
 
 ![](https://github-readme-stats.vercel.app/api?username=agzam4&show_icons=true&theme=dark&title_color=00FFB4&text_color=999&icon_color=00FF5D&border_color=EEE)
 
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=agzam4&langs_count=3&theme=dark&title_color=FFF)
 # Recommended projects:
 [![](https://github.com/Agzam4/Lights-Balls/blob/main/background.png?raw=true)](https://github.com/Agzam4/Lights-Balls)
 
