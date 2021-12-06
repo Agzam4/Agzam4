@@ -26,6 +26,8 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/agzam4/Dungeon-Underground-traps?color=FFE572&style=for-the-badge)
 ***
 
+### [More projects](https://github.com/Agzam4/Agzam4/wiki)
+
 <!--
 **Agzam4/Agzam4** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
