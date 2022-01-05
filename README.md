@@ -8,6 +8,12 @@
 
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=agzam4&langs_count=3&theme=dark&title_color=FFF)
 # Recommended projects:
+[![](https://repository-images.githubusercontent.com/444322714/561fe8f8-e198-44cc-bf00-1871ba747d15)](https://github.com/Agzam4/Dungeon-Lost-pyramid)
+
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/agzam4/Dungeon-Lost-pyramid?color=9000FF&style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/agzam4/Dungeon-Lost-pyramid/total?color=0090FF&style=for-the-badge)
+![GitHub Repo stars](https://img.shields.io/github/stars/agzam4/Dungeon-Lost-pyramid?color=FFE572&style=for-the-badge)
+***
 [![](https://github.com/Agzam4/Lights-Balls/blob/main/background.png?raw=true)](https://github.com/Agzam4/Lights-Balls)
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/agzam4/Lights-Balls?color=9000FF&style=for-the-badge)
