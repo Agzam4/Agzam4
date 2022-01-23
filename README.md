@@ -1,6 +1,6 @@
 # [Site](https://agzam4.github.io/Agzam4_/)
 ![GitHub followers](https://img.shields.io/github/followers/agzam4?color=999&logo=github&style=for-the-badge) &#8291; &#8291; &#8291;
-![JAVA](https://img.shields.io/badge/-JAVA_№1-FF9000?style=for-the-badge&logo=java) &#8291;
+![JAVA](https://img.shields.io/badge/-JAVA-FF9000?style=for-the-badge&logo=java) &#8291;
 ![JS](https://img.shields.io/badge/-Javascript-FFEE00?style=for-the-badge&logo=Javascript&logoColor=333)
 ![CPP](https://img.shields.io/badge/-C++-6600FF?style=for-the-badge)
 
