@@ -1,4 +1,13 @@
-# [Site](https://agzam4.github.io/Agzam4_/)
+[![]()]()
+![]()
+
+<p align="center">
+    <a href="https://agzam4.github.io/Agzam4_/"><img src="https://agzam4.github.io/Agzam4_/favicon.ico" width="35"></a>
+    <a href="https://www.youtube.com/@agzam4"><img src="./youtube.png" width="35"></a>
+    <a href="https://discordapp.com/users/962346067909836821"><img src="./discord.png" width="35"></a>
+</p>
+
+<!--# [Site](https://agzam4.github.io/Agzam4_/)
 ![GitHub followers](https://img.shields.io/github/followers/agzam4?color=999&logo=github&style=for-the-badge) &#8291; &#8291; &#8291;
 ![JAVA](https://img.shields.io/badge/-JAVA-FF9000?style=for-the-badge&logo=java) &#8291;
 ![JS](https://img.shields.io/badge/-Javascript-FFEE00?style=for-the-badge&logo=Javascript&logoColor=333)
@@ -41,7 +50,7 @@
 ***
 
 ### [More projects](https://github.com/Agzam4/Agzam4/wiki)
-
+-->
 <!--
 **Agzam4/Agzam4** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
