@@ -1,7 +1,7 @@
 [![]()]()
 ![]()
 
-<h3><p align="center"><code>== [ Links ] ==</code></p></h3>
+<!-- <h3><p align="center"><code>== [ Links ] ==</code></p></h3> -->
 <p align="center">
     <a href="https://agzam4.github.io/Agzam4_/"><img src="https://agzam4.github.io/Agzam4_/favicon.ico" width="35"></a>
     <a href="https://www.youtube.com/@agzam4"><img src="./youtube.png" width="35"></a>
@@ -52,6 +52,55 @@
 
 ### [More projects](https://github.com/Agzam4/Agzam4/wiki)
 -->
+
+---
+
+### Mindustry Plugin + Web Admin Panel
+
+<p align="center">
+<img src="./me/public/plugin.gif" alt="admin panel">
+</p>
+
+Plugin for Mindustry with built-in web server, Telegram bot and permission system. Requires no more than 1 GB of RAM (linux + mindustry + plugin)
+
+`Java` `React` `TypeScript` `SQLite` `REST API` `Telegram API` `Gradle` `Java APT`
+
+> Annotation processor for generating TypeScript API and HTTP client from Java code
+
+→ [github.com/Agzam4/Mindustry-plugin](https://github.com/Agzam4/Mindustry-plugin)
+
+---
+
+### 2D Pixel Physics Engine
+
+Pixel-level material physics engine in Java
+
+<p align="center">
+<img src="./me/public/pixel-physics.gif" alt="simulation">
+</p>
+
+`Java`
+
+> Infinite world based on dynamic grid (no hard map size limits)
+
+→ [Video demo](https://youtu.be/FA3KZNn9lJY)
+
+---
+
+### Terraria Flying Islands Generator
+
+Generator of floating island worlds for Terraria in JavaScript. Procedural generation of biomes, dungeons, pyramids, temples, trees and other structures
+
+<p align="center">
+<img src="./me/public/flying-islands.png" alt="generated map">
+</p>
+
+`JavaScript` `Procedural generation`
+
+> No libraries
+
+→ [github.com/Agzam4/TerrariaFlyingIslands](https://github.com/Agzam4/TerrariaFlyingIslands)
+
 <!--
 **Agzam4/Agzam4** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
