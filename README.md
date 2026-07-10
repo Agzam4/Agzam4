@@ -3,7 +3,7 @@
 
 <!-- <h3><p align="center"><code>== [ Links ] ==</code></p></h3> -->
 <p align="center">
-    <a href="https://agzam4.github.io/Agzam4_/"><img src="https://agzam4.github.io/Agzam4_/favicon.ico" width="35"></a>
+    <a href="https://agzam4.github.io/Agzam4/"><img src="https://agzam4.github.io/Agzam4_/favicon.ico" width="35"></a>
     <a href="https://www.youtube.com/@agzam4"><img src="./youtube.png" width="35"></a>
     <a href="https://discordapp.com/users/962346067909836821"><img src="./discord.png" width="35"></a>
 </p>
