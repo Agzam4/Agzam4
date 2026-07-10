@@ -14,7 +14,9 @@ const base = import.meta.env.BASE_URL;
       // Detect browser language preference
       const browserLang = navigator.language || navigator.userLanguage || 'en';
       const lang = browserLang.startsWith('ru') ? 'ru' : 'en';
-      const base = import.meta.env?.BASE_URL || '/Agzam4/';
+      // Extract base path from current URL (e.g., /Agzam4/)
+      const pathParts = window.location.pathname.split('/');
+      const base = '/' + (pathParts[1] || 'Agzam4') + '/';
       window.location.replace(`${base}${lang}/`);
     </script>
     <noscript>
