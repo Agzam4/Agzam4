@@ -1,0 +1,22 @@
+---
+import Base from '../../layouts/Base.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import ProjectCard from '../../components/ProjectCard.astro';
+import { getTranslation, type Locale } from '../../i18n';
+
+const locale: Locale = 'en';
+const t = getTranslation(locale);
+---
+
+<Base title={t.meta.title} description={t.meta.description} locale={locale}>
+  <div class="container">
+    <Header name={t.header.name} tagline={t.header.tagline} />
+
+    {t.projects.map((project, i) => (
+      <ProjectCard project={project} isLast={i === t.projects.length - 1} />
+    ))}
+
+    <Footer telegram={t.footer.telegram} github={t.footer.github} />
+  </div>
+</Base>

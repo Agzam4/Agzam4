@@ -1,0 +1,58 @@
+---
+interface Props {
+  name: string;
+  tagline: string;
+}
+
+const { name, tagline } = Astro.props;
+---
+
+<div class="header">
+  <h1>Agzam4</h1>
+  <div class="tagline">aka {name}</div>
+  <div class="links">
+    <a href="https://github.com/Agzam4">Github</a>
+    <span>/</span>
+    <a href="https://discordapp.com/users/962346067909836821">Discord</a>
+    <span>/</span>
+    <a href="https://t.me/agzam_4">Telegram</a>
+  </div>
+</div>
+
+<style>
+  .header {
+    margin-bottom: 64px;
+  }
+  .header h1 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #e8e8e8;
+    letter-spacing: -0.3px;
+    margin-bottom: 6px;
+  }
+  .tagline {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 16px;
+  }
+  .links {
+    font-size: 13px;
+    color: #666;
+  }
+  .links a {
+    color: #7ec8e3;
+  }
+  .links span {
+    color: #444;
+    margin: 0 6px;
+  }
+
+  @media (max-width: 600px) {
+    .header {
+      margin-bottom: 40px;
+    }
+    .header h1 {
+      font-size: 22px;
+    }
+  }
+</style>

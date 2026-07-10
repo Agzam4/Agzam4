@@ -1,0 +1,36 @@
+---
+interface Props {
+  telegram: string;
+  github: string;
+}
+
+const { telegram, github } = Astro.props;
+---
+
+<div class="footer">
+    <a href="https://github.com/Agzam4">Github</a>
+    <span>/</span>
+    <a href="https://discordapp.com/users/962346067909836821">Discord</a>
+    <span>/</span>
+    <a href="https://t.me/agzam_4">Telegram</a>
+</div>
+
+<style>
+  .footer {
+    margin-top: 64px;
+    padding-top: 24px;
+    border-top: 1px solid #1e1e1e;
+    font-size: 13px;
+    color: #666;
+  }
+  .footer a {
+    color: #888;
+  }
+  .footer a:hover {
+    color: #ccc;
+  }
+  .footer span {
+    margin: 0 6px;
+    color: #333;
+  }
+</style>

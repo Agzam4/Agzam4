@@ -1,0 +1,212 @@
+---
+interface ProjectImage {
+  src: string;
+  alt: string;
+  type: 'gif' | 'png';
+}
+
+interface DetailSection {
+  title: string;
+  content?: string;
+  list?: string[];
+  extraContent?: string;
+  link?: { url: string; label: string };
+}
+
+interface Project {
+  title: string;
+  image: ProjectImage;
+  description: string;
+  tags: string[];
+  highlight: string;
+  link: { url: string; label: string };
+  details: {
+    summary: string;
+    sections: DetailSection[];
+  };
+}
+
+interface Props {
+  project: Project;
+  isLast?: boolean;
+}
+
+const { project, isLast = false } = Astro.props;
+---
+
+<div class:list={['project', { 'last-project': isLast }]}>
+  <div class="project-title">{project.title}</div>
+
+  <div class:list={['project-image', { 'gif': project.image.type === 'gif' }]}>
+    <img src={project.image.src} alt={project.image.alt} loading="lazy" />
+  </div>
+
+  <div class="project-desc">{project.description}</div>
+
+  <div class="project-tags">
+    {project.tags.map((tag) => <span>{tag}</span>)}
+  </div>
+
+  <div class="project-highlight">{project.highlight}</div>
+
+  <div class="project-link">
+    <a href={project.link.url}>→ {project.link.label}</a>
+  </div>
+
+  <details class="details">
+    <summary>{project.details.summary}</summary>
+    <div class="details-content">
+      {project.details.sections.map((section) => (
+        <Fragment>
+          {section.title === 'GitHub' && section.link ? (
+            <>
+              <h4>{section.title}</h4>
+              <p><a href={section.link.url}>{section.link.label}</a></p>
+            </>
+          ) : (
+            <>
+              <h4>{section.title}</h4>
+              {section.content && <p>{section.content}</p>}
+              {section.list && (
+                <ul>
+                  {section.list.map((item) => <li>{item}</li>)}
+                </ul>
+              )}
+              {section.extraContent && <p>{section.extraContent}</p>}
+            </>
+          )}
+        </Fragment>
+      ))}
+    </div>
+  </details>
+</div>
+
+<style>
+  .project {
+    margin-bottom: 48px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #1e1e1e;
+  }
+  .project:last-child,
+  .last-project {
+    border-bottom: none;
+  }
+
+  .project-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #e0e0e0;
+    margin-bottom: 12px;
+  }
+
+  .project-image {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    background: #000;
+    aspect-ratio: 16 / 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .project-image.gif img {
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+  }
+
+  .project-desc {
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 10px;
+  }
+
+  .project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 10px;
+  }
+  .project-tags span {
+    font-size: 11px;
+    background: #1a1a1a;
+    color: #999;
+    padding: 3px 8px;
+    border-radius: 3px;
+    border: 1px solid #282828;
+  }
+
+  .project-highlight {
+    font-size: 13px;
+    color: #7ec8e3;
+    margin-bottom: 10px;
+  }
+
+  .project-link {
+    font-size: 13px;
+  }
+
+  /* Expandable details */
+  details.details {
+    margin-top: 16px;
+  }
+  details.details summary {
+    font-size: 13px;
+    color: #777;
+    cursor: pointer;
+    user-select: none;
+    display: inline-block;
+    padding: 2px 0;
+  }
+  details.details summary:hover {
+    color: #aaa;
+  }
+  details.details[open] summary {
+    color: #aaa;
+    margin-bottom: 16px;
+  }
+
+  .details-content {
+    font-size: 13px;
+    color: #999;
+    line-height: 1.7;
+  }
+  .details-content h4 {
+    font-size: 13px;
+    font-weight: 500;
+    color: #bbb;
+    margin-top: 18px;
+    margin-bottom: 6px;
+  }
+  .details-content h4:first-child {
+    margin-top: 0;
+  }
+  .details-content p {
+    margin-bottom: 10px;
+  }
+  .details-content ul {
+    padding-left: 18px;
+    margin-bottom: 10px;
+  }
+  .details-content li {
+    margin-bottom: 4px;
+  }
+
+  @media (max-width: 600px) {
+    .project-title {
+      font-size: 17px;
+    }
+    .project-image {
+      aspect-ratio: 4 / 3;
+    }
+  }
+</style>
