@@ -11,6 +11,7 @@ interface Props {
 const { locale, title, description } = Astro.props;
 
 const otherLocales = locales.filter((l) => l !== locale);
+const base = import.meta.env.BASE_URL;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
@@ -34,13 +35,13 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
     <!-- Alternate language links for SEO -->
     {otherLocales.map((l) => (
-      <link rel="alternate" hreflang={l} href={new URL(`/${l}/`, Astro.site)} />
+      <link rel="alternate" hreflang={l} href={`${base}${l}/`} />
     ))}
-    <link rel="alternate" hreflang="x-default" href={new URL('/en/', Astro.site)} />
+    <link rel="alternate" hreflang="x-default" href={`${base}en/`} />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
+    <link rel="icon" href={`${base}favicon.ico`} />
 
     <!-- JetBrains Mono font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
