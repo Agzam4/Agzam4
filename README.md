@@ -98,7 +98,11 @@
 → [GitHub](https://github.com/Agzam4/TerrariaFlyingIslands)
 
 </td>
-<td></td>
+<td>
+
+<img src="./me/public/wahuibatt.jpg" alt="cat" width="100%">
+
+</td>
 </tr>
 </table>
 
