@@ -55,51 +55,52 @@
 
 ---
 
-### Mindustry Plugin + Web Admin Panel
+<table>
+<tr>
+<td width="50%">
 
-<p align="center">
-<img src="./me/public/plugin.gif" alt="admin panel">
-</p>
+#### Mindustry Plugin + Web Admin Panel
 
-Plugin for Mindustry with built-in web server, Telegram bot and permission system. Requires no more than 1 GB of RAM (linux + mindustry + plugin)
+<img src="./me/public/plugin.gif" alt="admin panel" width="100%">
 
-`Java` `React` `TypeScript` `SQLite` `REST API` `Telegram API` `Gradle` `Java APT`
+`Java` `React` `TypeScript` `SQLite` `REST API`
 
-> Annotation processor for generating TypeScript API and HTTP client from Java code
+> Annotation processor for generating TypeScript API from Java
 
-→ [github.com/Agzam4/Mindustry-plugin](https://github.com/Agzam4/Mindustry-plugin)
+→ [GitHub](https://github.com/Agzam4/Mindustry-plugin)
 
----
+</td>
+<td width="50%">
 
-### 2D Pixel Physics Engine
+#### 2D Pixel Physics Engine
 
-Pixel-level material physics engine in Java
-
-<p align="center">
-<img src="./me/public/pixel-physics.gif" alt="simulation">
-</p>
+<img src="./me/public/pixel-physics.gif" alt="simulation" width="100%">
 
 `Java`
 
-> Infinite world based on dynamic grid (no hard map size limits)
+> Infinite world, each pixel physics
 
-→ [Video demo](https://youtu.be/FA3KZNn9lJY)
+→ [Video](https://youtu.be/FA3KZNn9lJY)
 
----
+</td>
+</tr>
+<tr>
+<td width="50%">
 
-### Terraria Flying Islands Generator
+#### Terraria Flying Islands Generator
 
-Generator of floating island worlds for Terraria in JavaScript. Procedural generation of biomes, dungeons, pyramids, temples, trees and other structures
-
-<p align="center">
-<img src="./me/public/flying-islands.png" alt="generated map">
-</p>
+<img src="./me/public/flying-islands.png" alt="generated map" width="100%">
 
 `JavaScript` `Procedural generation`
 
 > No libraries
 
-→ [github.com/Agzam4/TerrariaFlyingIslands](https://github.com/Agzam4/TerrariaFlyingIslands)
+→ [GitHub](https://github.com/Agzam4/TerrariaFlyingIslands)
+
+</td>
+<td></td>
+</tr>
+</table>
 
 <!--
 **Agzam4/Agzam4** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
